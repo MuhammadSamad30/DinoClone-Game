@@ -24,7 +24,7 @@ const DinoRunner = () => {
   const obstacleSpawnTimerRef = useRef(0);
 
   const gravity = 0.7;
-  const baseGameSpeed = 5;
+  const baseGameSpeed = 4;
 
   const gameLoop = () => {
     const difficulty = Math.min(1 + score * 0.01, 3);
